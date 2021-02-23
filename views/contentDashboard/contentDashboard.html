@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="contentDashboard.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="flexTop">
+		<h1 id="welcome">Welcome back, name.</h1>
+		<div id="navLinks">
+			<a href="/visualization/visualization.html">
+				<h1 id="visualization">Visualization</h1>
+			</a>
+      <a href="/journal/journal.html">
+			  <h1 id="journal">Journal</h1>
+      </a>
+		</div>
+	</div>
+	<div id="scontainer">
+		<h1 id="start">Start writing in your journal, or view visualization.</h1>
+	</div>
+
+	<div id="vectorDiv">
+		<img id="vector"
+    src="person2.svg"
+    alt="person 2"
+    height="700px"
+    width="700px" />
+  </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="contentDashboard.js"></script>
+  </body>
+</html>
